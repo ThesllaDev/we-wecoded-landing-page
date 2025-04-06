@@ -14,13 +14,13 @@ export default function MenuNavBar() {
         </p>
         <div className="absolute top-[99%] flex w-full justify-center gap-4">
           <Link
-            className="bg-purple border-blue hover:text-green hover:border-green border-2 p-2"
+            className="bg-purple border-blue hover:text-green hover:border-green border-2 p-2 font-bold"
             href="#about"
           >
             About We
           </Link>
           <Link
-            className="bg-purple border-blue hover:text-green hover:border-green border-2 p-2"
+            className="bg-purple border-blue hover:text-green hover:border-green border-2 p-2 font-bold"
             href="#stories"
           >
             We Stories
