@@ -1,15 +1,16 @@
 import { Press_Start_2P, Fira_Code } from "next/font/google";
 import "./globals.css";
+import MenuNavBar from "./components/MenuNavBar";
 
 const pressStart2P = Press_Start_2P({
-	weight: "400",
-	variable: "--font-press-start-2p",
-	subsets: ["latin"],
+  weight: "400",
+  variable: "--font-press-start-2p",
+  subsets: ["latin"],
 });
 
 const firaCode = Fira_Code({
-	variable: "--font-fira-code",
-	subsets: ["latin"],
+  variable: "--font-fira-code",
+  subsets: ["latin"],
 });
 
 export const metadata = {
@@ -20,9 +21,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${pressStart2P.variable} ${firaCode.variable}`}
-      >
+      <body className={`${pressStart2P.variable} ${firaCode.variable}`}>
+        <MenuNavBar />
         {children}
       </body>
     </html>
