@@ -13,9 +13,9 @@
 }
 
 @theme {
-	--color-purple: #9D00E5;
-	--color-blue: #4531EA;
-	--color-green: #CCEA71;
+  --color-purple: #9d00e5;
+  --color-blue: #4531ea;
+  --color-green: #ccea71;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +25,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -32,14 +36,14 @@ body {
 }
 
 @keyframes progress {
-	0% {
-		width: 0;
-	}
-	100% {
-		width: 100%;
-	}
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .progress-bar {
-	animation: progress 5s linear infinite;
+  animation: progress 5s linear infinite;
 }
