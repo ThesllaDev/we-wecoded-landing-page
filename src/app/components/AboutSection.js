@@ -42,7 +42,7 @@ export default function AboutSection() {
         </h3>
         <div className="font-[family-name:var(--font-fira-code)]">
           <p>
-            Since 2018, DEV has celebrated International Women's Day with{" "}
+            Since 2018, DEV has celebrated International Women&apos;s Day with{" "}
             <Link
               href="https://dev.to/jess/everyone-please-join-us-for-shecoded-2018--56l2"
               target="_blank"
@@ -53,7 +53,7 @@ export default function AboutSection() {
             </Link>
             , a call to action for the community to share powerful stories from
             women in tech about their journeys, challenges, and triumphs. What
-            began as a platform for women's voices naturally evolved into{" "}
+            began as a platform for women&apos;s voices naturally evolved into{" "}
             <Link
               href="https://dev.to/devteam/join-us-for-wecoded-2023-9cj"
               target="_blank"
@@ -74,8 +74,8 @@ export default function AboutSection() {
           </p>
           <p>
             <span className="font-bold">
-              For 2025, we're taking WeCoded to the next level by transforming
-              it into a DEV Challenge format for the first time.
+              For 2025, we&apos;re taking WeCoded to the next level by
+              transforming it into a DEV Challenge format for the first time.
             </span>{" "}
             We hope this allows even more community members to participate,
             whether by sharing personal stories or showcasing technical
