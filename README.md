@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎉 WeCoded Celebration Landing Page
 
-## Getting Started
+An interactive and retro-futuristic landing page to celebrate the evolution from **SheCoded** to **WeCoded**, and to highlight **diversity, inclusion, and empowerment** in the tech industry.
 
-First, run the development server:
+This project combines a nostalgic visual style with modern tech, blending the **past, present, and future** of technology. Pixel aesthetics inspired by the official WeCoded logo, vibrant color schemes, and subtle visual effects create a unique celebration of representation and innovation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> 🔗 Built as part of the [WeCoded Challenge](https://dev.to/challenges/wecoded) by DEV Community.
+> 📃 [My submission post on dev.to](https://dev.to/theslladev/we-wecoded-landing-page-hbm)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 [Live Demo Here](https://we-wecoded-landing-page.vercel.app/)
 
-## Learn More
+https://github.com/user-attachments/assets/ec47640f-acac-4562-8ada-914517e8bbc9
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔹 **About We** – Introducing the WeCoded initiative and its journey from SheCoded  
+- 📝 **Community Stories** – Featuring real posts from the dev.to community using `#wecoded`  
+- 🧠 **Inspiring History** – Honoring figures like Ada Lovelace, Grace Hopper, and the women from *Hidden Figures*  
+- 🫂 **Organizations That Empower** – Highlighting groups that support diversity in tech
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React + Next.js** – Modern, flexible frontend with file-based routing  
+- **TailwindCSS** – Utility-first styling for rapid development  
+- **ReactBits** – Pre-built animation library for smooth transitions  
+- **dev.to API** – Dynamically fetching stories tagged with `#wecoded`
+
+---
+
+## 🎨 Design Highlights
+
+- **Fonts**  
+  - `Fira Code` – For that coding vibe  
+  - `Press Start 2P` – Pixel-perfect retro feel
+
+- **Colors**  
+  - 🔵 Blue: `#4531EA`  
+  - 🟢 Green: `#CCEA71`  
+  - 🟣 Purple: `#9D00E5`  
