@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
+import InspiringHistory from "./components/InspiringHistory";
 import WeStories from "./components/WeStories";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 			<HeroSection />
 			<AboutSection />
 			<WeStories />
+			<InspiringHistory />
     </main>
   );
 }
