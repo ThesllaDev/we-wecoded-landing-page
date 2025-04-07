@@ -41,17 +41,33 @@ export default function MenuNavBar() {
           <li>
             <Link
               href="#about"
-              className="hover:text-green text-blue font-[family-name:var(--font-press-start-2p)] font-bold"
+              className="text-blue border-green hover:bg-green border-2 px-2 py-4 font-[family-name:var(--font-press-start-2p)] font-bold"
             >
-              About
+              About We
             </Link>
           </li>
           <li>
             <Link
               href="#stories"
-              className="hover:text-green text-blue font-[family-name:var(--font-press-start-2p)] font-bold"
+              className="text-blue border-green hover:bg-green border-2 px-2 py-4 font-[family-name:var(--font-press-start-2p)] font-bold"
             >
               Stories
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#history"
+              className="text-blue border-green hover:bg-green border-2 px-2 py-4 font-[family-name:var(--font-press-start-2p)] font-bold"
+            >
+              Inspiring History
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#support"
+              className="text-blue border-green hover:bg-green border-2 px-2 py-4 font-[family-name:var(--font-press-start-2p)] font-bold"
+            >
+              Support
             </Link>
           </li>
         </ul>

@@ -1,6 +1,7 @@
 import { Press_Start_2P, Fira_Code } from "next/font/google";
 import "./globals.css";
 import MenuNavBar from "./components/MenuNavBar";
+import Link from "next/link";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -24,6 +25,30 @@ export default function RootLayout({ children }) {
       <body className={`${pressStart2P.variable} ${firaCode.variable}`}>
         <MenuNavBar />
         {children}
+        <footer className="border-t-2 p-4 text-center">
+          <p>
+            © 2025 WeCoded. All rights reserved. This landing page was created
+            for the{" "}
+            <Link
+              className="hover:text-green text-blue font-bold underline"
+              href="https://dev.to/challenges/wecoded"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WeCoded 2025 Challenge
+            </Link>{" "}
+            by{" "}
+            <Link
+              className="hover:text-green text-purple font-bold underline"
+              href="https://github.com/ThesllaDev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ThesllaDev
+            </Link>
+            .
+          </p>
+        </footer>
       </body>
     </html>
   );
